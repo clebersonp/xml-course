@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee>
+    <employee_id>105</employee_id>
+    <first_name>Cleberson</first_name>
+    <last_name>Pauluci</last_name>
+    <salary>4000</salary>
+</employee>
