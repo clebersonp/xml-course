@@ -1,0 +1,11 @@
+<!-- Data Type Definition para validacao do xml de departments -->
+<!ELEMENT departments (department*)>
+<!-- elemento manager_id n eh obrigatorio, 0 ou 1 -->
+<!ELEMENT department (department_id, department_name, location_id, manager_id?)>
+<!ELEMENT department_id (#PCDATA)>
+<!ELEMENT department_name (#PCDATA)>
+<!ELEMENT location_id (#PCDATA)>
+<!ELEMENT manager_id (#PCDATA)>
+<!ATTLIST department num CDATA #REQUIRED>
+<!-- atributo floor do elemento department nao eh obrigatorio -->
+<!ATTLIST department floor CDATA #IMPLIED>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+	<employee>
+		<employee_id>103</employee_id>
+		<first_name>Alexander</first_name>
+		<last_name>Hunold</last_name>
+		<salary>9000</salary>
+	</employee>
+	<!-- Os elementos sao validados pelo arquivo dtd -->
+	<employee>
+		<employee_id>104</employee_id>
+		<!-- firs_name nao foi definido no dtd. Esta definido como first_name -->
+		<firs_name>Bruce</firs_name>
+		<last_name>Ernst</last_name>
+		<salary>6000</salary>
+	</employee>
+</employees>
